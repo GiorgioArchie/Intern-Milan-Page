@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inter Milan</title>
+    <style>
+        :root {
+            --blue: #00239c;
+            --black: #111;
+            --grey: #f4f5f9;
+            --line: #d9dce8;
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.65;
+            color: #222;
+            background: #fff;
+        }
+
+        header {
+            background: var(--black);
+            color: #fff;
+            border-bottom: 6px solid var(--blue);
+            padding: 1.5rem 1rem 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 96px;
+            height: 96px;
+        }
+
+        h1 {
+            margin: 0.5rem 0 1rem;
+            font-size: 2.5rem;
+            letter-spacing: 0.04em;
+        }
+
+        /* Hide only visually, but have it available for screen readers: */
+        .sr-only {
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+        }
+
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.25rem 1.5rem;
+            margin: 0;
+            padding: 0 0 1rem;
+            list-style: none;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.25rem 0;
+            border-bottom: 2px solid transparent;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            border-bottom-color: #fff;
+        }
+
+        main {
+            max-width: 45rem;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            scroll-margin-top: 1rem;
+        }
+
+        h2 {
+            margin-top: 2.5rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 3px solid var(--blue);
+            color: var(--blue);
+        }
+
+        h3 {
+            margin-top: 1.75rem;
+            color: var(--black);
+        }
+
+        a {
+            color: var(--blue);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        caption {
+            padding-bottom: 0.5rem;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        th,
+        td {
+            padding: 0.5rem 0.75rem;
+            border-bottom: 1px solid var(--line);
+            text-align: left;
+        }
+
+        thead th {
+            background: var(--blue);
+            color: #fff;
+        }
+
+        tbody tr:nth-child(even) {
+            background: var(--grey);
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding: 1rem;
+            background: var(--grey);
+            border-top: 1px solid var(--line);
+            font-size: 0.875rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="inter-milan-logo.svg" alt="Inter Milan club badge" width="96" height="96">
+    <h1>Inter Milan</h1>
+
+    <nav>
+        <h2 class="sr-only">Page navigation</h2>
+        <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#colours">Colours and badge</a></li>
+            <li><a href="#stadium">Stadium</a></li>
+            <li><a href="#rivalries">Supporters and rivalries</a></li>
+            <li><a href="#honors">Honors</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <article>
+
+        <section id="history">
+            <h2>History</h2>
+
+            <section id="foundation">
+                <h3>Foundation and early years</h3>
+                <p>
+                    Inter Milan was founded on 9 March 1908 as Football Club Internazionale, emerging from a split
+                    within the Milan Foot-Ball and Cricket Club (now AC Milan). A group of players left the established
+                    club because it restricted the signing of foreign players. The founders chose the name
+                    "Internazionale" to reflect their commitment to fielding international talent alongside Italian
+                    players.
+                </p>
+                <p>
+                    The club won its first championship in 1910 and a second title in 1920. The first championship team
+                    was led by Virgilio Fossati, its captain and coach, who later died serving in the Italian army
+                    during World War I.
+                </p>
+                <p>
+                    During the Fascist era, in 1928, Inter merged with Unione Sportiva Milanese and was renamed
+                    Società Sportiva Ambrosiana for political reasons. The team wore white shirts with a red cross
+                    in the 1928&ndash;29 season, inspired by Milan's civic symbols. By 1931, supporters' continued use
+                    of the "Inter" name led the club to become Associazione Sportiva Ambrosiana-Inter. After World
+                    War II, the original name Internazionale was fully restored.
+                </p>
+                <p>
+                    Inter won further championships in 1930 (under Hungarian coach Árpád Weisz, in the first Serie A
+                    season), 1938, 1940, 1953 and 1954. Giuseppe Meazza emerged as the club's greatest early star,
+                    scoring 284 goals for Inter, a club record, and winning two FIFA World Cups with Italy. His 38
+                    goals in 39 matches in 1929&ndash;30 remains the club's record for a single season.
+                </p>
+            </section>
+
+            <section id="grande-inter">
+                <h3>The Grande Inter</h3>
+                <p>
+                    In 1960, manager Helenio Herrera arrived from Barcelona and transformed Inter into a dominant
+                    European force. Under Herrera, Inter won three Serie A titles in four years, two European Cups and
+                    two consecutive Intercontinental Cups. Herrera modified the catenaccio defensive system, originally
+                    developed by Austrian coach Karl Rappan, by adding a fifth defender (the sweeper, or libero)
+                    behind two centre backs, which gave the team greater tactical flexibility.
+                </p>
+                <p>
+                    Angelo Moratti, who became club owner in 1955, assembled a legendary squad. Spanish midfielder
+                    Luis Suárez, the 1960 European Footballer of the Year, joined for a record 25 million pesetas.
+                    The core of the team included goalkeeper Giuliano Sarti, full-backs Tarcisio Burgnich and
+                    Giacinto Facchetti, sweeper Armando Picchi, playmaker Suárez, Brazilian winger Jair, left winger
+                    Mario Corso and inside-right Sandro Mazzola.
+                </p>
+                <p>
+                    In the 1964 European Cup final at the Praterstadion in Vienna, Inter beat Real Madrid 3&ndash;1,
+                    becoming the first team to win the tournament without losing a single match. Mazzola scored twice
+                    and Aurelio Milani added the third. That same year Inter won the Intercontinental Cup against
+                    Independiente, losing the first leg 1&ndash;0 in Argentina, winning the second leg 2&ndash;0 at
+                    San Siro, and taking the play-off 1&ndash;0 after extra time at the Santiago Bernabéu.
+                </p>
+                <p>
+                    The following year, after eliminating Liverpool 3&ndash;0 in the semi-final second leg, Inter beat
+                    two-time champions Benfica in the 1965 European Cup final, at home, with a goal from Jair. Inter
+                    then defeated Independiente 3&ndash;0 in the 1965 Intercontinental Cup, becoming the first
+                    European team to win that trophy twice in a row. The club came close to an unprecedented treble
+                    that year, having also won Serie A, but lost the Coppa Italia final to Juventus.
+                </p>
+                <p>
+                    The Grande Inter era ended in 1967, when Inter lost the European Cup final 2&ndash;1 to Celtic in
+                    Lisbon. A week later they lost the Serie A title despite having led the table, and then went out
+                    in the Coppa Italia semi-final. It was the club's first season without a trophy since 1961&ndash;62.
+                </p>
+            </section>
+        </section>
+
+        <section id="colours">
+            <h2>Colours and badge</h2>
+            <p>
+                Inter's identity centres on black and blue, the club's official colours, which give the supporters
+                their nickname <i lang="it">I Nerazzurri</i> ("the Black and Blues"). Another well-known nickname is
+                <i lang="it">La Beneamata</i> ("the Well-Cherished One"). The club's badge incorporates
+                <i lang="it">Il Biscione</i> ("the Big Grass Snake"), a historic symbol from Milan's civic heraldry
+                that reflects the club's deep connection to the city.
+            </p>
+        </section>
+
+        <section id="stadium">
+            <h2>Stadium</h2>
+            <p>
+                Inter shares the San Siro, officially named the Stadio Giuseppe Meazza since 1980 after the death of
+                the legendary forward, with city rivals AC Milan. The arrangement has existed since 1947. San Siro is
+                the largest stadium in Italy, with a current limited capacity of 75,817 and a maximum capacity of
+                80,018. Inter has the highest home attendances in Italy and the fourth-highest in Europe.
+            </p>
+            <p>
+                Plans for a new Milan stadium have been discussed to give the club a modern home, but these
+                initiatives remain ongoing.
+            </p>
+        </section>
+
+        <section id="rivalries">
+            <h2>Supporters and rivalries</h2>
+            <p>
+                The <i lang="it">Derby della Madonnina</i>, between Inter and AC Milan, is one of the most widely
+                followed club rivalries in the world. Both teams share the San Siro, which intensifies the fixture.
+            </p>
+            <p>
+                Inter also contests the <i lang="it">Derby d'Italia</i> against Juventus, a rivalry rooted in the
+                long-running competition between two of Italy's most successful clubs. These matches carry
+                significant regional and competitive weight.
+            </p>
+        </section>
+
+        <section id="honors">
+            <h2>Honors</h2>
+            <p>
+                Inter has won 39 domestic trophies in its history, including five consecutive Serie A titles from
+                2006 to 2010. In 2010 the club also completed an unprecedented Italian treble by winning Serie A,
+                the Coppa Italia and the UEFA Champions League in the same season.
+            </p>
+
+            <table>
+                <caption>Major honors</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Competition</th>
+                        <th scope="col">Titles</th>
+                        <th scope="col">Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Serie A</th>
+                        <td>21</td>
+                        <td>Includes 2006&ndash;2010 (five in a row)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Coppa Italia</th>
+                        <td>10</td>
+                        <td>Includes 2010</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Supercoppa Italiana</th>
+                        <td>8</td>
+                        <td>&ndash;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">European Cup / UEFA Champions League</th>
+                        <td>3</td>
+                        <td>1964, 1965, 2010</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">UEFA Cup</th>
+                        <td>3</td>
+                        <td>1991, 1994, 1998</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Intercontinental Cup</th>
+                        <td>2</td>
+                        <td>1964, 1965</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">FIFA Club World Cup</th>
+                        <td>1</td>
+                        <td>2010</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </article>
+</main>
+
+<footer>
+    <p>
+        Content adapted from the Wikipedia article
+        <a href="https://en.wikipedia.org/wiki/Inter_Milan">Inter Milan</a>, available under the
+        Creative Commons Attribution-ShareAlike licence.
+    </p>
+</footer>
+
+</body>
+
+</html>
